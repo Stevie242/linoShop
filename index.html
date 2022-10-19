@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style css -->
+    <link rel="stylesheet" href="./vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendors/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- /Style css -->
+    <title>Lino Shop</title>
+</head>
+
+<body>
+    <!-- Menu de navigation dans le header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Lino Shop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="#" class="navbar-brand order-md-1"><i class="fa-solid fa-cart-shopping"></i><span>3</span></a>
+                <div class="collapse navbar-collapse menu order-md-0" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Articles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- /Menu de navigation dans le header -->
+
+    <!-- Section produits les plus achéter -->
+    <div class="container mt-4">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item mb-5 active">
+                    <div class="carousel-card">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="./img/t-shirt/goonies.jpg" alt="" class="img-flui rounded-start carousel-card-img">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="carousel-card-body">
+                                    <h5 class="carousel-card-title">Article name</h5>
+                                    <p class="carousel-card-text">Description : <span class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse placeat fuga vitae blanditiis qui maxime saepe doloribus recusandae rerum, reprehenderit quidem ratione voluptatem amet sed vero! Animi voluptatibus ab repellat.</span></p>
+                                    <p class="carousel-card-prix">Prix : <span>5 000</span> XAF</p>
+                                    <a href="" class="btn btn-primary">Ajouter au panier</a>
+                                </div>
+                                <div class="carousel-card-submit">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item mb-5">
+                    <div class="carousel-card">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="./img/t-shirt/happy.jpg" alt="" class="img-flui rounded-start carousel-card-img">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="carousel-card-body">
+                                    <h5 class="carousel-card-title">Article name</h5>
+                                    <p class="carousel-card-text">Description : <span class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse placeat fuga vitae blanditiis qui maxime saepe doloribus recusandae rerum, reprehenderit quidem ratione voluptatem amet sed vero! Animi voluptatibus ab repellat.</span></p>
+                                    <p class="carousel-card-prix">Prix : <span>5 000</span> XAF</p>
+                                    <a href="" class="btn btn-primary">Ajouter au panier</a>
+                                </div>
+                                <div class="carousel-card-submit">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item mb-5">
+                    <div class="carousel-card">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="./img/t-shirt/hulk.jpg" alt="" class="img-flui rounded-start carousel-card-img">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="carousel-card-body">
+                                    <h5 class="carousel-card-title">Article name</h5>
+                                    <p class="carousel-card-text">Description : <span class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse placeat fuga vitae blanditiis qui maxime saepe doloribus recusandae rerum, reprehenderit quidem ratione voluptatem amet sed vero! Animi voluptatibus ab repellat.</span></p>
+                                    <p class="carousel-card-prix">Prix : <span>5 000</span> XAF</p>
+                                    <a href="" class="btn btn-primary">Ajouter au panier</a>
+                                </div>
+                                <div class="carousel-card-submit">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- /Section produits les plus achéter -->
+
+    <!--  -->
+
+    <!-- footer -->
+
+    <!-- /footer -->
+    <!-- script js -->
+    <script src="./vendors/jquery/jquery-3.6.1.min.js"></script>
+    <script src="./vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./vendors/font-awesome/js/all.min.js"></script>
+    <script src="./js/main.js" defer></script>
+    <!-- /script js -->
+</body>
+
+</html>
