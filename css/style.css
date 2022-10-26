@@ -104,6 +104,7 @@ a:hover{
     padding: 10px;
     border: none;
     outline: none;
+    border-radius: 0;
 }
 
 
