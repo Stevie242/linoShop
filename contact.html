@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./vendors/font-awesome/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <!-- /Style css -->
-    <title>Lino Shop</title>
+    <title>Contact | Lino Shop</title>
 </head>
 
 <body>
@@ -25,14 +25,14 @@
               <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-list">
-                    <a class="nav-link-shop active" aria-current="page" href="index.html">Accueil</a>
+                    <a class="nav-link-shop" href="index.html">Accueil</a>
                   </li>
                   <li class="nav-list">
                     <a class="nav-link-shop" href="about-us.html">Qui sommes-nous</a>
                   </li>
                   <li class="nav-list">
                     <a class="nav-link-shop dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Produits</a>
-                    <ul class="dropdown-menu bg-black ms-sm-3" aria-labelledby="navbarDropdown">
+                    <ul class="dropdown-menu bg-black ms-sm-4" aria-labelledby="navbarDropdown">
                         <li>
                           <a class="nav-link-shop" href="#">Costume Homme & Femme</a>
                         </li>
@@ -51,7 +51,7 @@
                       </ul>
                   </li>
                   <li class="nav-list">
-                    <a class="nav-link-shop" href="contact.html">Contact</a>
+                    <a class="nav-link-shop active" aria-current="page" href="contact.html">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -60,11 +60,79 @@
     </header>
     <!-- /Menu de navigation dans le header -->
 
-    <!-- Slide -->
-    <div class="container-fluid">
-      
+    <!-- Contact -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-9 col-sm-12">
+                <div class="contact">
+                    <div class="title">
+                        Nous contacter
+                    </div>
+                    <div class="description">
+                        Vous pouvez nous contacter par téléphone, ou e-mail. Pour poser une question spécifique via internet, veuillez utiliser le formulaire.
+                    </div>
+                    <div class="form-contact">
+                        <form action="" class="row">
+                            <div class="col-md-6 col-sm-12">
+                                <div class="form-group">
+                                    <label for="fullname">Nom complet</label>
+                                    <input type="text" name="fullname" id="fullname" placeholder="Nom complet">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="form-group">
+                                    <label for="phone">Téléphone</label>
+                                    <input type="tel" name="phone" id="phone" placeholder="Téléphone">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12">
+                                <div class="form-group">
+                                    <label for="city">Ville</label>
+                                    <input type="text" name="city" id="city" placeholder="Ville">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="form-group">
+                                    <label for="msg">Message</label>
+                                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Veuillez saisir votre message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="form-group-check">
+                                    <input type="checkbox" name="newsletter" id="newsletter">
+                                    <label for="newsletter">Je m’abonne à la NewsLetter Lino Shop</label>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="form-submit">
+                                    <button>Envoyer message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="address mt-4">
+                    <div class="min-title">
+                        Lino Shop
+                    </div>
+                    <div class="min-desc">
+                        <p></p>
+                        <p><span class="fa-solid fa-phone"></span> 0278932372</p>
+                        <p><span class="fa-solid fa-envelope"></span> contact@linoshop.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- /Slide -->
+    <!-- /Contact -->
 
     <!-- Footer -->
     <footer class="bg-black mt-4 p-5">
@@ -148,7 +216,7 @@
         </div>
     </footer>
     <!-- /Footer -->
-    
+
     <!-- script js -->
     <script src="./vendors/jquery/jquery-3.6.1.min.js"></script>
     <script src="./vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
