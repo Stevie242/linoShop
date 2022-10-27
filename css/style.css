@@ -60,6 +60,7 @@ a:hover{
 }
 
 
+
 /* Footer */
 .footer-title{
     font-size: 22px;
@@ -121,6 +122,219 @@ a:hover{
 
 .footer-form .footer-submit button:hover{
     background-color: #115B62;
+}
+
+.copyright{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.copyright p{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+}
+
+/* Slide */
+
+.slide{
+    background-image: url('../img/background/arriere-plan-bleu-motif-poisson.jpg');
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.slide .content .title{
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-bottom: 70px;
+    text-align: center;
+    user-select: none;
+}
+
+.slide .content .description{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #fff;
+    user-select: none;
+    transform: translateY(250%);
+    animation: fade-up 1.5s forwards;
+}
+
+@keyframes fade-up {
+    100%{
+        transform: translateY(-10%);
+    }
+}
+
+
+/* Search */
+.search{
+    position: absolute;
+    top: 480px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+    z-index: 20;
+} 
+
+.search-content .bg-search-title{
+    display: flex;
+    align-items: center;
+}
+
+.search-content .title{
+    font-size: 22px;
+    font-weight: 600;
+    color: #197982;
+}
+
+.search-content .form form{
+    align-items: center;
+}
+
+.search-content .form .form-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-content .form .form-group label{
+    display: none;
+}
+
+.search-content .form .form-group input,
+.search-content .form .form-group select{
+    border: 2px solid #197982;
+    padding: 10px;
+    max-width: 300px;
+    width: 100%;
+    height: 50px;
+    background-color: #dcfcff;
+    outline: none;
+}
+
+.search-content .form .form-submit button{
+    display: inline-block;
+    max-width: 300px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #197982;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.search-content .form .form-submit button:hover{
+    background-color: #115B62;
+}
+
+
+/* Article - Accueil */
+.marge-378{
+    margin-top: 378px;
+}
+
+@media (min-width: 768px){
+    .search{
+        top: 460px !important;
+    }
+    .marge-140 {
+      margin-top: 140px !important;
+    }
+}
+
+.article .title{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.list-article .item-name-group{
+    text-align: center;
+    font-size: 26px;
+    color: #197982;
+    border-bottom: 4px dashed #197982;
+    padding: 10px;
+}
+
+.list-article .see-all-item{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.list-article .see-all-item a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+}
+
+.list-article .see-all-item a:hover{
+    color: #197982;
+}
+
+.list-article .item-group{
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow-y: hidden;
+}
+
+.list-article .item-group .item-img{
+    display: flex;
+    justify-content: center;
+}
+
+.list-article .item-group img{
+    width: 240px;
+    height: 100%;
+}
+
+.list-article .item-group h4{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.list-article .item-group h4 span{
+    color: #197982;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.list-article .item-group .item-action{
+    display: flex;
+    justify-content: center;
+}
+
+
+.list-article .item-group .item-action a{
+    font-size: 18px;
+    margin-right: 15px;
+    text-align: center;
+    background-color: rgb(229, 226, 226);
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+}
+
+.list-article .item-group .item-action a:last-child{
+    margin-right: 0;
 }
 
 /* Contact */
@@ -201,4 +415,38 @@ a:hover{
     font-size: 15px;
     color: rgb(26, 25, 25);
     margin: 10px 0 10px 20px;
+}
+
+
+/* Product */
+
+.banniere{
+    background-image: url('../img/background/arriere-plan-bleu-motif-poisson.jpg');
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.banniere .content .title{
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-bottom: 70px;
+    text-align: center;
+    user-select: none;
+}
+
+.banniere .content .description{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #fff;
+    user-select: none;
+    transform: translateY(250%);
+    animation: fade-up 1.5s forwards;
 }
