@@ -431,6 +431,12 @@ a:hover{
     overflow-y: hidden;
 }
 
+@media (max-width: 650px){
+    .banniere{
+        height: 400px;
+    }
+}
+
 .banniere .content .title{
     font-size: 70px;
     font-weight: 700;
