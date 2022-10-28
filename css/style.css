@@ -217,6 +217,7 @@ a:hover{
 .search-content .form .form-group input,
 .search-content .form .form-group select{
     border: 2px solid #197982;
+    border-radius: 0;
     padding: 10px;
     max-width: 300px;
     width: 100%;
@@ -422,7 +423,7 @@ a:hover{
 
 .banniere{
     background-image: url('../img/background/arriere-plan-bleu-motif-poisson.jpg');
-    height: 150px;
+    height: 260px;
     width: 100%;
     display: flex;
     justify-content: center;
