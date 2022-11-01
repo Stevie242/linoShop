@@ -173,6 +173,16 @@ a:hover{
     }
 }
 
+@media (max-width: 345px){
+    .slide .content .title{
+        font-size: 50px;
+    }
+
+    .slide .content .description{
+        font-size: 35px;
+    }
+}
+
 
 /* Search */
 .search{
